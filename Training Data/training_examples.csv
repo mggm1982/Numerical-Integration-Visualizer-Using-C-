@@ -1,0 +1,8 @@
+case_id,function,a,b,n,method,reference_integral
+TR01,x^2,0,2,10,Midpoint,2.6666666666666665
+TR02,x^2,0,2,10,Trapezoidal,2.6666666666666665
+TR03,x^2,0,2,10,Simpson,2.6666666666666665
+TR04,sin(x),0,3.141592653589793,20,Simpson,2
+TR05,exp(x),0,1,20,Trapezoidal,1.718281828459045
+TR06,x^3,0,1,12,Simpson,0.25
+TR07,cos(x),0,1.5707963267948966,20,Midpoint,1

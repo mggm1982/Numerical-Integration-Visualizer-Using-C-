@@ -1,0 +1,10 @@
+test_id,function_choice,a,b,n,method_choice,expected_behavior
+TE01,1,0,2,10,3,valid
+TE02,1,0,2,10,1,valid
+TE03,2,0,3.141592653589793,100,3,valid
+TE04,3,0,1,100,2,valid
+TE05,4,0,1,20,3,valid
+TE06,5,0,1.5707963267948966,100,1,valid
+TE07,1,0,2,9,3,reject odd n for Simpson
+TE08,1,2,0,10,2,reject reversed limits
+TE09,1,0,2,1,1,reject n below 2
